@@ -61,7 +61,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Open sans', Helvetica, Helvetica Neue, Arial, 'sans serif';
 }
 
 .wrapper {
@@ -70,22 +70,22 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Grey Theme
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #888;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #888;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #444;
 }
 
 .title {
@@ -157,7 +157,21 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.uppercase {
+    text-transform: uppercase;
+}
 
+.large_text {
+    font-size: 2.0em;
+}
+
+.normal_text {
+    font-size: 1.0em;
+}
+
+.small_text {
+    font-size: 0.66em;
+}
 
 
 
